@@ -178,7 +178,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "⚠️ 通知已停用 ⚠️\n\n如果你想要啟用通知，請打開系統的通知設定並選擇 Xcodes。"
+            "value" : "⚠️ 權限不足⚠️\n\n如果你想要啟用通知，請打開系統的通知設定並選擇 Xcodes。"
           }
         }
       }
@@ -291,7 +291,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "通知已啟用。你將會開始收到來自 Xcodes 的通知。"
+            "value" : "已核准權限。你可以收到來自 Xcodes 的通知。"
           }
         }
       }
@@ -7869,7 +7869,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "以安裝輔助程式"
+            "value" : "已安裝輔助程式"
           }
         }
       }
