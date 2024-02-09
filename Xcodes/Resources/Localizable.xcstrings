@@ -178,7 +178,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "⚠️ 通知已停用 ⚠️\n\n如果你想要啟用通知，請打開你的通知設定並選擇 Xcodes。"
+            "value" : "⚠️ 通知已停用 ⚠️\n\n如果你想要啟用通知，請打開系統的通知設定並選擇 Xcodes。"
           }
         }
       }
@@ -2035,7 +2035,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xcodes 使用一個分開的權限輔助程式以使用 root 身份執行特定工作。這些工作包含了通常需要在命令列使用 sudo 的指令，包含安裝後步驟以及使用 xcode-select 選擇 Xcode 版本。\n\n安裝時，你將會被詢問你的 macOS 帳號密碼。"
+            "value" : "Xcodes 會利用一個分開的具有權限的輔助程式以 root 身份執行特定工作，例如那些在命令列中通常需使用 sudo 的命令，包含安裝程序後的步驟以及使用 xcode-select 選擇 Xcode 版本。\n\n安裝此程式時，你將會需要輸入 macOS 帳號的密碼。"
           }
         }
       }
@@ -2148,7 +2148,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "權限輔助程式"
+            "value" : "具有權限的輔助程式"
           }
         }
       }
@@ -3453,7 +3453,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "自動建立連接到 Xcode.app 的符號連結"
+            "value" : "自動建立連結至 Xcode.app 的符號連結"
           }
         }
       }
@@ -3565,7 +3565,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "選擇或啟用一個 Xcode 版本時，自動建立一個名為 Xcode.app 的符號連結到該版本的安裝目錄"
+            "value" : "選擇或啟用一個 Xcode 版本時，會自動建立一個名為 Xcode.app 的符號連結，並指向該版本的安裝目錄"
           }
         }
       }
@@ -5512,7 +5512,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apple 資料來源是擷取 Apple 開發者網站而來，永遠會顯示最新的可用版本，但比較容易出錯。\n\nXcode Releases 是一個非官方的 Xcodes 發行版本列表。這個來源提供格式良好的資料，包含了 Apple 開發者網站上未列出的額外資訊並且即使 Apple 決定重新設計他們的開發者網站也比較不容易出錯。"
+            "value" : "「Apple 資料來源」會爬取 Apple 開發者網站。此資料來源較容易出錯，且只會顯示最新的可用版本。\n\n「Xcode Releases」是一個非官方的 Xcode 發行版本清單。此資料來源提供彙整好的資料，包含了 Apple 開發者網站上未列出的額外資訊，且不容易因 Apple 網站設計變更而出錯。"
           }
         }
       }
@@ -5845,7 +5845,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "aria2 相較 URLSession 可以同時使用最多 16 條連線以 3 ~ 5 倍的速度下載 Xcode。Xcodes 包含了執行檔與其原始碼以遵循他的 GPLv2 授權合約。\n\nURLSession 是系統內建用來發送 URL 連線請求的 Apple API。"
+            "value" : "aria2 可利用多達 16 條連線來下載 Xcode，相較使用 URLSession 快達 3~5 倍。Xcodes 的套件內容中包含了 aria2 執行檔及其原始碼，以遵循其使用的 GPLv2 授權條款。\n\nURLSession 是系統內建用於發起 URL 連線請求的 Apple API。"
           }
         }
       }
@@ -6757,7 +6757,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "實驗"
+            "value" : "實驗性功能"
           }
         }
       }
@@ -7425,7 +7425,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "收尾中"
+            "value" : "即將完成"
           }
         }
       }
@@ -7757,7 +7757,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "無法與權限輔助程式溝通。"
+            "value" : "無法與具有權限的輔助程式通訊。"
           }
         }
       }
@@ -7869,7 +7869,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "輔助程式已安裝"
+            "value" : "以安裝輔助程式"
           }
         }
       }
@@ -7981,7 +7981,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "輔助程式尚未安裝"
+            "value" : "尚未安裝輔助程式"
           }
         }
       }
@@ -9832,7 +9832,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "壓縮檔「%@」由於缺乏足夠的磁碟空間，無法解壓縮。\n\n請清空更多磁碟空間以確保可以解壓縮該檔案，然後再重新安裝 Xcode %@ 一次。安裝步驟將會從上次停住的地方繼續。"
+            "value" : "由於磁碟空間不足，無法將壓縮檔「%@」解壓縮。\n\n請騰出更多磁碟空間以完成解壓縮，並重新安裝 Xcode %@。安裝步驟將會從上次停住的地方繼續。"
           }
         }
       }
@@ -9945,7 +9945,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "安裝已經完成，但有些安裝後步驟沒有自動執行。這些步驟在你第一次啟動 Xcode %@ 的時候會自動執行。"
+            "value" : "已完成安裝，但有些安裝後步驟未完成。這些步驟在首次啟動 Xcode %@ 時會自動執行。"
           }
         }
       }
@@ -10058,7 +10058,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "安裝已經完成，但有些安裝後步驟沒有自動執行。 Xcodes 需要權限輔助程式來執行這些步驟，但該程式尚未被安裝。你可以在 偏好設定 > 進階中安裝它。\n\n這些步驟在你第一次啟動 Xcode %@ 的時候會自動執行。"
+            "value" : "已完成安裝，但有些安裝後步驟未自動執行。Xcodes 需要具有權限的輔助程式來執行這些步驟，但該程式尚未被安裝。你可以在 偏好設定 > 進階中安裝它。\n\n這些步驟在首次啟動 Xcode %@ 時會自動執行。"
           }
         }
       }
@@ -10284,7 +10284,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下載的 Xcode 含有未預期的簽章。\n簽章人：\n%@\n%@\n預期的簽章人：\n%@\n%@"
+            "value" : "下載的 Xcode 含有未預期的簽章。\n簽章者：\n%@\n%@\n預期的簽章者：\n%@\n%@"
           }
         }
       }
@@ -13361,7 +13361,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "有新的版本可用"
+            "value" : "新版本已可供使用"
           }
         }
       }
@@ -13474,7 +13474,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "新的 Xcode 版本已經可以下載了"
+            "value" : "新的 Xcode 版本已可供下載。"
           }
         }
       }
@@ -13919,7 +13919,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你的帳號沒有任何已信任的手機號碼，但兩階段認證需要信任的手機號碼。\n\n請參閱 https://support.apple.com/HT204915."
+            "value" : "你的帳號沒有任何已信任的手機號碼，但兩階段認證需要信任的手機號碼。\n\n請參閱 https://support.apple.com/HT204915。"
           }
         }
       }
@@ -15220,7 +15220,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "權限輔助程式"
+            "value" : "具有權限的輔助程式"
           }
         }
       }
@@ -15332,7 +15332,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xcodes 使用一個分開的權限輔助程式以使用 root 身份執行特定工作。這些工作包含了通常需要在命令列使用 sudo 的指令，包含安裝後步驟以及使用 xcode-select 選擇 Xcode 版本。\n\n安裝時，你將會被詢問你的 macOS 帳號密碼。"
+            "value" : "Xcodes 會利用一個分開的具有權限的輔助程式以 root 身份執行特定工作，例如那些在命令列中通常需使用 sudo 的命令，包含安裝程序後的步驟以及使用 xcode-select 選擇 Xcode 版本。\n\n安裝此程式時，你將會需要輸入 macOS 帳號的密碼。"
           }
         }
       }
@@ -15438,7 +15438,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新"
+            "value" : "重新整理"
           }
         }
       }
@@ -17782,7 +17782,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "移動封存檔到垃圾桶"
+            "value" : "正在將封存檔移動至垃圾桶"
           }
         }
       }
